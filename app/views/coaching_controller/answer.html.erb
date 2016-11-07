@@ -1,0 +1,38 @@
+<h1>CoachingController#answer</h1>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-xs-6 offset-xs-3">
+      <h3>Question:</h3>
+      <%= params[:question] %>
+    </div>
+
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-xs-6 offset-xs-3">
+      <h3>Answer:</h3>
+      <%= @answer %>
+    </div>
+
+
+  </div>
+
+  <div class="row">
+
+    <div class="col-xs-6 offset-xs-3">
+      <%= link_to "Ask another question", ask_path %>
+    </div>
+
+
+  </div>
+
+</div>
+
+
+
+
